@@ -1,0 +1,21 @@
+{
+	"name": "goodbot_project",
+	"version": "1.0.0",
+	"description": "This is a discrod bot",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js --trace-deprecation"
+	},
+	"keywords": [
+		"discord",
+		"bot",
+		"nodejs"
+	],
+	"author": "Aakash Jha",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "13.1.0",
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.12"
+	}
+}
